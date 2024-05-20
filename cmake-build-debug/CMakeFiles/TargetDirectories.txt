@@ -1,0 +1,5 @@
+/home/tawfiq/CLionProjects/ShortestPath/cmake-build-debug/CMakeFiles/ShortestPath.dir
+/home/tawfiq/CLionProjects/ShortestPath/cmake-build-debug/CMakeFiles/package.dir
+/home/tawfiq/CLionProjects/ShortestPath/cmake-build-debug/CMakeFiles/package_source.dir
+/home/tawfiq/CLionProjects/ShortestPath/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/tawfiq/CLionProjects/ShortestPath/cmake-build-debug/CMakeFiles/rebuild_cache.dir

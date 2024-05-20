@@ -1,0 +1,3 @@
+/home/tawfiq/CLionProjects/SnakeGame2/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/sfml-populate.dir
+/home/tawfiq/CLionProjects/SnakeGame2/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/edit_cache.dir
+/home/tawfiq/CLionProjects/SnakeGame2/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/rebuild_cache.dir

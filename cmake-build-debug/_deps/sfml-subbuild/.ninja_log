@@ -1,0 +1,23 @@
+# ninja log v5
+1	7	1714197752349089460	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir	183f45d933fd4798
+69587	69592	1714197821934918947	/home/tawfiq/CLionProjects/SnakeGame2/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	e452e8585111b03b
+69582	69587	1714197821926918737	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	379e2b1ac8b64035
+69592	69598	1714197821938919052	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install	c1955862984a23b8
+69598	69603	1714197821942919158	/home/tawfiq/CLionProjects/SnakeGame2/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	e039ca85657fcee8
+7	67615	1714197819954866895	/home/tawfiq/CLionProjects/SnakeGame2/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download	aa0f44f386d1aff2
+69603	69611	1714197821950919368	/home/tawfiq/CLionProjects/SnakeGame2/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	ff2745dedfd12c85
+69592	69598	1714197821938919052	/home/tawfiq/CLionProjects/SnakeGame2/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install	c1955862984a23b8
+67615	69576	0	/home/tawfiq/CLionProjects/SnakeGame2/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	7b869f1c17d468a6
+69603	69611	1714197821950919368	/home/tawfiq/CLionProjects/SnakeGame2/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/sfml-populate-complete	ff2745dedfd12c85
+69603	69611	1714197821950919368	CMakeFiles/sfml-populate-complete	ff2745dedfd12c85
+69587	69592	1714197821934918947	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	e452e8585111b03b
+69576	69581	1714197821922918631	/home/tawfiq/CLionProjects/SnakeGame2/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	52cb993fc97b3989
+69603	69611	1714197821950919368	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	ff2745dedfd12c85
+7	67615	1714197819954866895	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download	aa0f44f386d1aff2
+69576	69581	1714197821922918631	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	52cb993fc97b3989
+69582	69587	1714197821926918737	/home/tawfiq/CLionProjects/SnakeGame2/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	379e2b1ac8b64035
+67615	69576	0	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	7b869f1c17d468a6
+1	7	1714197752349089460	/home/tawfiq/CLionProjects/SnakeGame2/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir	183f45d933fd4798
+69598	69603	1714197821942919158	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	e039ca85657fcee8
+1	55	1714629824519997789	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir	b011d1e399999ee1
+1	55	1714629824519997789	/home/tawfiq/CLionProjects/SnakeGame2/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir	b011d1e399999ee1
