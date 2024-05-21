@@ -178,19 +178,23 @@ void ShortestPath::Instructions() {
 
     sf::Text setSDestination("To select destination position press : D", font, 50);
     setSource.setFillColor(textColor);
-    setSDestination.setPosition(50, 250);
+    setSDestination.setPosition(50, 200);
 
     sf::Text bfs("BFS algorithm: B", font, 50);
     setSource.setFillColor(textColor);
-    bfs.setPosition(50, 400);
+    bfs.setPosition(50, 300);
 
     sf::Text AStar("A star algorithm : A", font, 50);
     setSource.setFillColor(textColor);
-    AStar.setPosition(50, 550);
+    AStar.setPosition(50, 400);
 
     sf::Text drawWalls("You can draw walls using the mouse", font, 50);
     setSource.setFillColor(textColor);
-    drawWalls.setPosition(50, 700);
+    drawWalls.setPosition(50, 500);
+
+    sf::Text clear("You can clear the screen by pressing ESC", font, 50);
+    setSource.setFillColor(textColor);
+    clear.setPosition(50, 600);
 
     sf::Text start(">> Enter <<", font, 50);
     setSource.setFillColor(textColor);
@@ -210,6 +214,7 @@ void ShortestPath::Instructions() {
         window.draw(bfs);
         window.draw(AStar);
         window.draw(drawWalls);
+        window.draw(clear);
         window.draw(start);
         window.display();
     }

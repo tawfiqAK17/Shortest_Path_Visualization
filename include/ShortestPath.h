@@ -33,8 +33,10 @@ private:
     const sf::Color textColor;
 
     bool started = false;
+
+    const int rectSize = 10;
+    const int speed = rectSize * 0.1;
 public:
-    const int rectSize = 20;
     ShortestPath();
     void Run();
     void PollEvents(std::shared_ptr<std::thread> thread);

@@ -51,7 +51,7 @@ void ShortestPath::BFS(std::vector<std::vector<ShortestPath::Rect>>& grid, sf::V
         }
 
         BFSgetNeighbors(grid, current, queue, visited, parents);
-        std::this_thread::sleep_for(std::chrono::milliseconds((int)(rectSize * 0.1)));
+        std::this_thread::sleep_for(std::chrono::milliseconds(speed));
     }
 
     if (found) {
@@ -124,11 +124,15 @@ void ShortestPath::AStar(std::vector<std::vector<ShortestPath::Rect>>& grid, sf:
 
         AgetNeighbors(grid, current, queue, visited, parents, distanceToSource);
         std::sort(queue.begin(), queue.end(), [&](sf::Vector2i a, sf::Vector2i b) -> bool {
-            return sqrt(pow(a.x - destination.x, 2) + pow(a.y - destination.y, 2)) + distanceToSource[a.x * grid[0].size() + a.y] >\
-            sqrt(pow(b.x - destination.x, 2) + pow(b.y - destination.y, 2)) + distanceToSource[b.x * grid[0].size() + b.y];
+            return sqrt(pow(grid[a.x][a.y].rect.getPosition().x - grid[destination.x][destination.y].rect.getPosition().x, 2) + \
+            pow(grid[a.x][a.y].rect.getPosition().y - grid[destination.x][destination.y].rect.getPosition().y, 2)) +\
+            distanceToSource[a.x * grid[0].size() + a.y] >\
+            sqrt(pow(grid[b.x][b.y].rect.getPosition().x - grid[destination.x][destination.y].rect.getPosition().x, 2) + \
+            pow(grid[b.x][b.y].rect.getPosition().y - grid[destination.x][destination.y].rect.getPosition().y, 2)) +\
+            distanceToSource[b.x * grid[0].size() + b.y];
         });
 
-        std::this_thread::sleep_for(std::chrono::milliseconds((int)(rectSize * 0.1)));
+        std::this_thread::sleep_for(std::chrono::milliseconds(speed));
     }
 
     if (found) {
