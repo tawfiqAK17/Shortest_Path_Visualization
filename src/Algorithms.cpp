@@ -89,7 +89,14 @@ void ShortestPath::AgetNeighbors(std::vector<std::vector<ShortestPath::Rect>>& g
                 queue.emplace_back(newX, newY);
                 parents[key] = rect;
                 visited[key] = true;
-                distanceToSource[key] = distanceToSource[rect.x * grid[0].size() + rect.y] + 1;
+                if (distanceToSource[key]) {
+                    if (distanceToSource[key] > distanceToSource[rect.x * grid[0].size() + rect.y] + 1)
+                        distanceToSource[key] = distanceToSource[rect.x * grid[0].size() + rect.y] + 1;
+
+                }
+                else {
+                    distanceToSource[key] = distanceToSource[rect.x * grid[0].size() + rect.y] + 1;
+                }
             }
         }
     }
