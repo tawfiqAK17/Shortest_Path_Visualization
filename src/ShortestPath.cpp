@@ -170,7 +170,7 @@ void ShortestPath::Reset() {
 
 void ShortestPath::Instructions() {
     sf::Font font;
-    if (!font.loadFromFile("/home/tawfiq/CLionProjects/ShortestPath/src/FiraMono.ttf")) return;
+    if (!font.loadFromFile("src/FiraMono.ttf")) return;
 
     sf::Text setSource("To select start position press : S", font, 50);
     setSource.setFillColor(textColor);
